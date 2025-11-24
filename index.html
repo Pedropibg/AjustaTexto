@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ajusta Texto</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>AjustaTexto</h1>
+		<nav>
+			<a href="#">Início</a>
+			<a href="#">Sobre</a>
+			<a href="https://github.com/">Git Hub</a>
+		</nav>
+	</header>
+	<main>
+		<h2>Digite seu texto:</h2>
+
+		<!-- Caixa de texto -->
+		<input type="text" id="caixaTexto" placeholder="Escreva algo aqui..."> <!-- o que significa a tag input: - É um elemento HTML usado para criar campos interativos em formulários.
+		- Serve para o usuário inserir dados: texto, números, datas, senhas, arquivos, etc.
+		- É um elemento vazio
+		, ou seja, não possui uma tag de fechamento.
+		- O atributo 'type' define o tipo de dado que o campo aceitará (ex: text, password, email, number).
+		- O atributo 'id' é usado para identificar o elemento de forma única no documento HTML.
+		- O atributo 'placeholder' fornece um texto de dica que aparece dentro do campo quando ele está vazio.
+		 -->
+
+		<!-- Botão -->
+		<button onclick="mostrarTexto()">Enviar</button> <!-- o que significa a tag button: - É um elemento HTML usado para criar botões interativos em uma página web.
+		- Pode ser clicado pelo usuário para executar uma ação, como enviar um formulário ou acionar um script.
+		- Pode conter texto ou outros elementos HTML dentro dele.	
+		- O atributo 'onclick' define uma ação a ser executada quando o botão é clicado.
+		 -->
+
+		<!-- Área para mostrar o resultado -->
+		<p id="Palavras"></p>
+		<p id="Letras"></p>
+
+		<script src="script.js"></script>
+	</main>
+	<footer>
+		<p>Feito por Pedro Gonçalves dos Santos</p>
+	</footer>
+</body>
+</html>
